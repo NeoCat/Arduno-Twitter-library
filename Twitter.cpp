@@ -41,9 +41,10 @@ bool Twitter::post(const char *msg)
 #else
 	if (client.connect(LIB_DOMAIN, 80)) {
 #endif
-		client.println("POST http://" LIB_DOMAIN "/update HTTP/1.0");
+		client.println("POST http://" LIB_DOMAIN "/update HTTP/1.1");
 		client.print("Content-Length: ");
 		client.println(strlen(msg)+strlen(token)+14);
+		client.println("Host: " LIB_DOMAIN);
 		client.println();
 		client.print("token=");
 		client.print(token);
