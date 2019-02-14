@@ -45,6 +45,7 @@ bool Twitter::post(const char *msg)
 		client.print("Content-Length: ");
 		client.println(strlen(msg)+strlen(token)+14);
 		client.println("Host: " LIB_DOMAIN);
+		client.println("Connection: close");
 		client.println();
 		client.print("token=");
 		client.print(token);
