@@ -13,7 +13,7 @@
 #include <string.h>
 #include "Twitter.h"
 
-#define LIB_DOMAIN "arduino-tweet.appspot.com"
+#define LIB_DOMAIN "arduino-tweet-318222.uc.r.appspot.com"
 
 #if defined(ARDUINO) && ARDUINO < 100
 static uint8_t server[] = {0,0,0,0}; // IP address of LIB_DOMAIN

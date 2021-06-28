@@ -2,7 +2,7 @@
 A library to post tweets to Twitter from Arduino with an Ethernet Shield.
 This library uses relay server on GooleAppEngine to handle OAuth authentication:
 
-http://arduino-tweet.appspot.com/
+https://arduino-tweet-318222.uc.r.appspot.com/
 
 ## Example
 Some sample sketches for Arduino included(/examples/).
@@ -13,11 +13,11 @@ Some sample sketches for Arduino included(/examples/).
 
 ## How to use
  + Add this library to your Arduino IDE.
- 
+
  + Get a token to post a message using OAuth from the relay server:
-   
-   http://arduino-tweet.appspot.com/ -> "Step 1."
-    
+
+   https://arduino-tweet-318222.uc.r.appspot.com -> "Step 1."
+
    When you allow the access, your token is issued.
 
  + Pass your token to the constructor of Twitter class, like:

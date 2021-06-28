@@ -13,7 +13,7 @@ byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 // If you don't specify the IP address, DHCP is used(only in Arduino 1.0 or later).
 byte ip[] = { 192, 168, 2, 250 };
 
-// Your Token to Tweet (get it from http://arduino-tweet.appspot.com/)
+// Your Token to Tweet (get it from https://arduino-tweet-318222.uc.r.appspot.com/)
 Twitter twitter("YOUR-TOKEN-HERE");
 
 // Message to post
